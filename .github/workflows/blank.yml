@@ -37,5 +37,5 @@ jobs:
           mkdir foo
           touch  foo/bar.txt
           echo Hello world >> foo/bar.txt
-          cd foo/bar.txt bar2.txt
+          cp foo/bar.txt bar2.txt
           cat bar2.txt
