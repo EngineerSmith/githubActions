@@ -39,7 +39,7 @@ jobs:
           echo Hello world >> foo/bar.txt
           cp foo/bar.txt bar2.txt
           cat bar2.txt
-      - name: Save created txt
+      - name: Save created txt plz
         uses: actions/upload-artifact@v2
         with:
           name: text file
